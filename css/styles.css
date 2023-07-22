@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --iris: #4d5ae5;
+  --navyblue: #2e2f42;
+  --navcolor: black;
+  --oceancolor: #2196f3;
+  --whitecolor: white;
+  --slate: #434455;
+  --cloud: #f4f4fd;
+}
+
+/*checked*/
+body {
+  background-color: var(--whitecolor);
+  color: var(--slate);
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+}
+
+/*checked*/
+.logo-link {
+  text-decoration: none;
+  font-size: 0;
+  font-family: "Raleway", sans-serif;
+  font-family: 800;
+}
+
+/*checked*/
+.logo-link > span {
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+}
+
+/*checked*/
+.logo {
+  color: var(--iris);
+}
+
+/*checked*/
+.studio {
+  color: var(--navyblue);
+}
+
+/*checked*/
+.nav-menu .page {
+  color: var(--navcolor);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/*checked*/
+.list {
+  list-style-type: none;
+}
+
+/*checked*/
+.project {
+  text-decoration: none;
+}
+
+/*checked*/
+.button.filter {
+  color: var(--iris);
+  background-color: var(--cloud);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+}
+
+/*checked*/
+.nav-menu .page:focus,
+.nav-menu .page:hover,
+.nav-menu .page.current,
+.contacts-menu .item:hover,
+.contacts-menu .item:focus {
+  color: var(--iris);
+}
+
+/*checked*/
+.contacts-menu .item {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+/*checked*/
+.bg-hero {
+  background: var(--navyblue);
+}
+
+/*checked*/
+.hero-title {
+  color: var(--whitecolor);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.04em;
+}
+
+/*checked*/
+.button {
+  cursor: pointer;
+  border-color: transparent;
+  font-family: inherit;
+  font-size: 16px;
+  border-radius: 4px;
+  font-weight: 500;
+  line-height: 1.5px;
+  letter-spacing: 0.03em;
+}
+
+/*checked*/
+.button.primary {
+  background-color: var(--iris);
+  color: var(--whitecolor);
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+/*checked*/
+.button.primary:hover,
+.button.primary:focus {
+  background-color: var(--oceancolor);
+}
+
+/*checked*/
+.button.filter:hover,
+.button.filter:focus,
+.button.filter.current {
+  background-color: var(--oceancolor);
+  color: var(--cloud);
+}
+
+/*checked*/
+.benefits .description {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.71px;
+}
+
+/*checked*/
+.section-title {
+  text-align: center;
+  color: var(--navyblue);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+
+/*checked*/
+.benefits .title {
+  font-size: 20px;
+  font-family: 500;
+  color: var(--navyblue);
+}
+
+/*checked*/
+.bg-team {
+  background-color: var(--cloud);
+}
+
+/*checked*/
+.team .name {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+/*checked*/
+.team .position {
+  color: var(--slate);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/*checked*/
+.project .name {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+/*checked*/
+.project .type {
+  color: var(--slate);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.87; /* 150% */
+}
+
+/*checked*/
+.bg-footer {
+  background: var(--navyblue);
+}
+
+/*checked*/
+.studio-footer {
+  color: var(--cloud);
+}
+
+/*checked*/
+.footer-description {
+  color: var(--cloud);
+  font-size: 16px;
+  font-weight: 400;
+}

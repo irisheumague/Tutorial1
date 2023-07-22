@@ -1,2 +1,1 @@
-# Tutorial1
-this is my first tutorial
+# goit-markup-hw-02
